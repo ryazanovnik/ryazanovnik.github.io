@@ -1,0 +1,48 @@
+body {background: url(img/video.png) repeat; background-size: 100% 100%; background-attachment:scroll;}
+.header {background: url(img/header.png) no repeat;
+		position:relative;
+		top:-10px;
+		left:-10px;}
+.percent { margin-left: 5%;
+	font-size: 3vw;} /* 3% of viewport width */
+.percent2 { margin-left: 7%;
+	font-size: 3vw;} /* 3% of viewport width */
+.percent3 {  text-align:  center;
+font-size: 3vw;}
+.ssilka {text-decoration: underline; color:black; }
+
+
+
+.dvijenie {
+    width:100%;
+    position:fixed;
+    bottom: -200px;
+    display:block;
+    color:#FFF;
+    z-index:2;
+    opacity: 0.95;
+}
+.dvijenie .knopka {
+    display:block;
+    color:black;
+    background-color:#FFFFE0;
+    text-align:center;
+    font-size: 6vw;
+    border: 4px double black;
+    height:100px;
+    width:50px;
+    position:absolute;
+    bottom: 200px;
+    left: -7px;
+}
+.dvijenie .toctovidvigaetsa {
+    bottom: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFE0;
+    position: relative;
+    left: -7px;
+    font-size: 3vw;
+    border: 4px double black;
+     text-align:  center;
+}
